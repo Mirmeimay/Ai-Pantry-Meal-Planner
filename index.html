@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XAI Pantry — Explainable AI Pantry & Meal Planner</title>
+<meta name="description" content="Track your pantry, cut food waste, and get AI meal recommendations that explain exactly why each dish was suggested.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+<nav class="lp-nav">
+  <div class="brand"><div class="brand-mark">🍽️</div><div class="brand-name">XAI Pantry<span>Meal Planner</span></div></div>
+  <div class="lp-nav-links">
+    <a href="#features">Features</a>
+    <a href="#how">How it works</a>
+    <a href="#explainable">Explainability</a>
+  </div>
+  <div class="flex gap-2">
+    <a href="login.html" class="btn btn-ghost btn-sm">Sign in</a>
+    <a href="register.html" class="btn btn-primary btn-sm">Get started</a>
+  </div>
+</nav>
+
+<header class="lp-hero">
+  <div>
+    <span class="eyebrow">🌱 Explainable AI · Zero food waste</span>
+    <h1>Know exactly <em>why</em> you're cooking what you're cooking.</h1>
+    <p class="lead">XAI Pantry tracks what's in your kitchen, flags what's about to expire, and recommends meals with a transparent, plain-language reason behind every suggestion — not a black box.</p>
+    <div class="lp-cta-row">
+      <a href="register.html" class="btn btn-primary">Create free account</a>
+      <a href="login.html" class="btn btn-secondary">I already have an account</a>
+    </div>
+    <p class="lp-trust">No credit card. Runs entirely in your browser — your data never leaves this device.</p>
+  </div>
+
+  <div class="reasoning-card">
+    <div class="rc-head">
+      <div class="ic">✨</div>
+      <div><div class="text-sm" style="font-weight:700;color:var(--text-faint);text-transform:uppercase;letter-spacing:.05em;font-size:11px;">AI recommendation</div></div>
+    </div>
+    <div class="rc-recipe">Chicken Fried Rice</div>
+    <div class="text-sm muted" style="margin-bottom:10px;">92% match · Dinner · 25 min</div>
+    <div class="rc-trail">
+      <span class="chip have">🍚 Rice — have</span>
+      <span class="chip have">🐔 Chicken — have</span>
+      <span class="chip expiring">🥕 Carrots — expiring in 2 days</span>
+      <span class="chip missing">🧄 Garlic — need 1</span>
+    </div>
+    <div class="rc-why"><b>Why this recipe:</b> your pantry already has rice, chicken and carrots, and the carrots expire in 2 days — cooking this now prevents waste. Only 1 extra ingredient is required.</div>
+  </div>
+</header>
+
+<section class="lp-section" id="features">
+  <div class="lp-section-head">
+    <span class="kicker">Everything in one place</span>
+    <h2>Built for the way real kitchens work</h2>
+  </div>
+  <div class="feat-grid">
+    <div class="feat-card"><div class="ic" style="background:var(--basil-100);color:var(--basil-700)">🥬</div><h3>Pantry tracking</h3><p>Log every ingredient with category, quantity, storage location and expiry — searchable and filterable in seconds.</p></div>
+    <div class="feat-card"><div class="ic" style="background:var(--gold-100);color:var(--gold-600)">⏰</div><h3>Expiry alerts</h3><p>Automatic badges and notifications for items expiring today, expiring soon, or already expired.</p></div>
+    <div class="feat-card"><div class="ic" style="background:var(--herb-100);color:var(--herb-600)">✨</div><h3>Explainable recommendations</h3><p>Every AI suggestion comes with a plain-language reason — which ingredients you have, what's expiring, and what's missing.</p></div>
+    <div class="feat-card"><div class="ic" style="background:var(--clay-100);color:var(--clay-600)">🛒</div><h3>Smart shopping lists</h3><p>Missing ingredients from any recipe can be added to your shopping list in one tap.</p></div>
+    <div class="feat-card"><div class="ic" style="background:var(--basil-100);color:var(--basil-700)">📊</div><h3>Waste-reduction insights</h3><p>A live dashboard shows pantry utilisation, meals generated, and estimated waste avoided.</p></div>
+    <div class="feat-card"><div class="ic" style="background:var(--herb-100);color:var(--herb-600)">🔒</div><h3>Private by design</h3><p>Your pantry and profile stay on your device — nothing is uploaded to a third-party server.</p></div>
+  </div>
+</section>
+
+<section class="lp-section" id="how">
+  <div class="lp-section-head">
+    <span class="kicker">Three steps</span>
+    <h2>From fridge to fork</h2>
+  </div>
+  <div class="steps-row">
+    <div class="step-card"><div class="num">01</div><h4>Log your pantry</h4><p>Add what you buy — quantity, category and expiry date.</p></div>
+    <div class="step-card"><div class="num">02</div><h4>Get matched meals</h4><p>The engine ranks recipes by what you already have and what's expiring soonest.</p></div>
+    <div class="step-card"><div class="num">03</div><h4>See the reasoning</h4><p>Read exactly why each meal was suggested before you commit to cooking it.</p></div>
+    <div class="step-card"><div class="num">04</div><h4>Shop the gap</h4><p>Missing ingredients go straight to your shopping list, categorised and ready.</p></div>
+  </div>
+</section>
+
+<section class="lp-cta-banner" id="explainable">
+  <h2>Stop guessing why an app told you to cook something.</h2>
+  <p>Every recommendation in XAI Pantry is traceable back to the ingredients in your kitchen and their expiry dates — full transparency, every time.</p>
+  <a href="register.html" class="btn" style="background:#fff;color:var(--basil-900);">Start your pantry, free</a>
+</section>
+
+<footer class="lp-footer">
+  <div class="flex gap-2" style="align-items:center;"><span>🍽️</span><span>XAI Pantry & Meal Planner — Capstone Project</span></div>
+  <div>Built for a Final Year Information Systems Capstone</div>
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
